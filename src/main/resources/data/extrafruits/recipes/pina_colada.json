@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "extrafruits:pineapple_juice"
+    },
+    {
+      "item": "extrafruits:coconut_milk"
+    }
+  ],
+  "result": {
+    "item": "extrafruits:pina_colada",
+    "count": 1
+  },
+  "show_notification": true
+}

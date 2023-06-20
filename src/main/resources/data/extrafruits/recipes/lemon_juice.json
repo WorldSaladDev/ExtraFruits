@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "extrafruits:juicer"
+    },
+    {
+      "item": "extrafruits:lemon"
+    }
+  ],
+  "result": {
+    "item": "extrafruits:lemon_juice"
+  },
+  "show_notification": true
+}

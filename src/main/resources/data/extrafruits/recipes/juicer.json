@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "#$#",
+    "$%$"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_nugget"
+    },
+    "$": {
+      "item": "minecraft:iron_ingot"
+    },
+    "%": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "extrafruits:juicer"
+  },
+  "show_notification": true
+}

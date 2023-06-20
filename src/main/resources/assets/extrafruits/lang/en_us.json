@@ -1,0 +1,28 @@
+{
+  "item.extrafruits.juicer": "Juicer",
+  "item.extrafruits.orange": "Orange",
+  "item.extrafruits.lemon": "Lemon",
+  "item.extrafruits.lime": "Lime",
+  "item.extrafruits.kiwi": "Kiwi",
+  "item.extrafruits.coconut": "Coconut",
+  "item.extrafruits.peach": "Peach",
+  "item.extrafruits.pineapple": "Pineapple",
+  "item.extrafruits.orange_juice": "Orange Juice",
+  "item.extrafruits.lemon_juice": "Lemon Juice",
+  "item.extrafruits.lime_juice": "Lime Juice",
+  "item.extrafruits.kiwi_juice": "Kiwi Juice",
+  "item.extrafruits.apple_juice": "Apple Juice",
+  "item.extrafruits.melon_juice": "Melon Juice",
+  "item.extrafruits.sweet_berry_juice": "Sweet Berry Juice",
+  "item.extrafruits.glow_berry_juice": "Glow Berry Juice",
+  "item.extrafruits.chorus_juice": "Chorus Juice",
+  "item.extrafruits.coconut_milk": "Coconut Milk",
+  "item.extrafruits.peach_juice": "Peach Juice",
+  "item.extrafruits.pineapple_juice": "Pineapple Juice",
+  "item.extrafruits.citrus_sprint": "Citrus Sprint",
+  "item.extrafruits.pina_colada": "Piña Colada",
+
+  "block.extrafruits.orange_crate": "Orange Crate",
+
+  "itemGroup.extrafruits.extrafruits_tab": "ExtraFruits"
+}
