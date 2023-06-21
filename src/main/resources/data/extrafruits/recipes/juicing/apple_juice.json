@@ -1,0 +1,17 @@
+{
+  "type": "extrafruits:juicing",
+  "category": "food",
+  "group": "extrafruits:juice",
+  "ingredients": [
+    {
+      "item": "extrafruits:juicer"
+    },
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "result": {
+    "item": "extrafruits:apple_juice"
+  },
+  "show_notification": true
+}

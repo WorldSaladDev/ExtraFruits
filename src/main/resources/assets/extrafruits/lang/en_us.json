@@ -7,6 +7,7 @@
   "item.extrafruits.coconut": "Coconut",
   "item.extrafruits.peach": "Peach",
   "item.extrafruits.pineapple": "Pineapple",
+  "item.extrafruits.blueberry": "Blueberry",
   "item.extrafruits.orange_juice": "Orange Juice",
   "item.extrafruits.lemon_juice": "Lemon Juice",
   "item.extrafruits.lime_juice": "Lime Juice",
@@ -19,10 +20,9 @@
   "item.extrafruits.coconut_milk": "Coconut Milk",
   "item.extrafruits.peach_juice": "Peach Juice",
   "item.extrafruits.pineapple_juice": "Pineapple Juice",
+  "item.extrafruits.blueberry_juice": "Blueberry Juice",
   "item.extrafruits.citrus_sprint": "Citrus Sprint",
   "item.extrafruits.pina_colada": "Piña Colada",
-
-  "block.extrafruits.orange_crate": "Orange Crate",
 
   "itemGroup.extrafruits.extrafruits_tab": "ExtraFruits"
 }

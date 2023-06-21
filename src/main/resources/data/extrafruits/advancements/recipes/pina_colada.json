@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pineapple_juice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extrafruits:pineapple_juice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_coconut_milk": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extrafruits:coconut_milk"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pina_colada": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extrafruits:pina_colada"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "extrafruits:pina_colada"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pineapple_juice",
+      "has_coconut_milk",
+      "has_pina_colada"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extrafruits:pina_colada"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,17 @@
+{
+  "type": "extrafruits:juicing",
+  "category": "food",
+  "group": "extrafruits:juice",
+  "ingredients": [
+    {
+      "item": "extrafruits:juicer"
+    },
+    {
+      "item": "extrafruits:coconut"
+    }
+  ],
+  "result": {
+    "item": "extrafruits:coconut_milk"
+  },
+  "show_notification": true
+}

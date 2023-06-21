@@ -1,0 +1,17 @@
+{
+  "type": "extrafruits:juicing",
+  "category": "food",
+  "group": "extrafruits:juice",
+  "ingredients": [
+    {
+      "item": "extrafruits:juicer"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    }
+  ],
+  "result": {
+    "item": "extrafruits:glow_berry_juice"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,17 @@
+{
+  "type": "extrafruits:juicing",
+  "category": "food",
+  "group": "extrafruits:juice",
+  "ingredients": [
+    {
+      "item": "extrafruits:juicer"
+    },
+    {
+      "item": "extrafruits:kiwi"
+    }
+  ],
+  "result": {
+    "item": "extrafruits:kiwi_juice"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_coconut_milk": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extrafruits:coconut_milk"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "extrafruits:cake_using_coconut_milk"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cake",
+      "has_the_recipe",
+      "has_coconut_milk"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extrafruits:cake_using_coconut_milk"
+    ]
+  },
+  "sends_telemetry_event": false
+}

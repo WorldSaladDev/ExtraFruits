@@ -2,6 +2,7 @@ package io.github.worldsaladdev.extrafruits.initialization;
 
 import io.github.worldsaladdev.extrafruits.ExtraFruits;
 import io.github.worldsaladdev.extrafruits.items.DrinkableFoodItem;
+import io.github.worldsaladdev.extrafruits.items.JuicerItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -15,7 +16,7 @@ public class ItemInitialization {
 
 //Tools
     public static final RegistryObject<Item> JUICER = ITEMS.register("juicer",
-            () -> new Item(new Item.Properties().stacksTo(1).durability(256)));
+            () -> new JuicerItem(new Item.Properties().stacksTo(1).durability(64)));
 
 //Fruits
     public static final RegistryObject<Item> ORANGE = ITEMS.register("orange",
@@ -39,6 +40,9 @@ public class ItemInitialization {
     public static final RegistryObject<Item> COCONUT = ITEMS.register("coconut",
             () -> new Item(new Item.Properties().stacksTo(64).food(new FoodProperties.Builder().nutrition(1).saturationMod(0.5f).build())));
 
+    public static final RegistryObject<Item> BLUEBERRY = ITEMS.register("blueberry",
+            () -> new Item(new Item.Properties().stacksTo(64).food(new FoodProperties.Builder().nutrition(1).saturationMod(0.3f).build())));
+
 //Juices
     public static final RegistryObject<Item> ORANGE_JUICE = ITEMS.register("orange_juice",
             () -> new DrinkableFoodItem(new Item.Properties().stacksTo(64).food(new FoodProperties.Builder().nutrition(4).saturationMod(3.0f).build())));
@@ -61,6 +65,9 @@ public class ItemInitialization {
     public static final RegistryObject<Item> COCONUT_MILK = ITEMS.register("coconut_milk",
             () -> new DrinkableFoodItem(new Item.Properties().stacksTo(64).food(new FoodProperties.Builder().nutrition(2).saturationMod(0.8f).build())));
 
+    public static final RegistryObject<Item> BLUEBERRY_JUICE = ITEMS.register("blueberry_juice",
+            () -> new DrinkableFoodItem(new Item.Properties().stacksTo(64).food(new FoodProperties.Builder().nutrition(2).saturationMod(0.4f).build())));
+
     public static final RegistryObject<Item> APPLE_JUICE = ITEMS.register("apple_juice",
             () -> new DrinkableFoodItem(new Item.Properties().stacksTo(64).food(new FoodProperties.Builder().nutrition(4).saturationMod(2.8f).build())));
 
@@ -75,6 +82,7 @@ public class ItemInitialization {
 
     public static final RegistryObject<Item> CHORUS_JUICE = ITEMS.register("chorus_juice",
             () -> new DrinkableFoodItem(new Item.Properties().stacksTo(64).food(new FoodProperties.Builder().nutrition(2).saturationMod(0.6f).build())));
+
 
 //cocktails
     public static final RegistryObject<Item> CITRUS_SPRINT = ITEMS.register("citrus_sprint",

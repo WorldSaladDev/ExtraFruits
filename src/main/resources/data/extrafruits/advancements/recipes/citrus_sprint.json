@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lime_juice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extrafruits:lime_juice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lemon_juice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extrafruits:lemon_juice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_orange_juice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extrafruits:orange_juice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_citrus_sprint": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extrafruits:citrus_sprint"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "extrafruits:citrus_sprint"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lime_juice",
+      "has_lemon_juice",
+      "has_orange_juice",
+      "has_citrus_sprint"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extrafruits:citrus_sprint"
+    ]
+  },
+  "sends_telemetry_event": false
+}

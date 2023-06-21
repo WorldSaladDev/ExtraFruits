@@ -18,9 +18,7 @@ import java.util.function.Supplier;
 public class BlockInitialization {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ExtraFruits.MODID);
 
-//Orange item
-    public static final RegistryObject<Block> ORANGE_CRATE = register("orange_crate",
-        () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).mapColor(DyeColor.ORANGE)), new Item.Properties());
+//no blocks yet not sure if there will be any
 
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> supplier, Item.Properties properties) {
         RegistryObject<T> block = BLOCKS.register(name, supplier);

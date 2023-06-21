@@ -15,9 +15,10 @@ public class ExtraFruits {
     public ExtraFruits() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        BlockInitialization.BLOCKS.register(bus);
+        //BlockInitialization.BLOCKS.register(bus);
         ItemInitialization.ITEMS.register(bus);
         CreativeTabInitialization.CREATIVE_TAB.register(bus);
+        RecipeSerializerInitialization.RECIPE_SERIALIZERS.register(bus);
 
     }
 }

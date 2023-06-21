@@ -1,0 +1,17 @@
+{
+  "type": "extrafruits:juicing",
+  "category": "food",
+  "group": "extrafruits:juice",
+  "ingredients": [
+    {
+      "item": "extrafruits:juicer"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "result": {
+    "item": "extrafruits:sweet_berry_juice"
+  },
+  "show_notification": true
+}
